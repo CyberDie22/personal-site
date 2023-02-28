@@ -4,7 +4,7 @@
 
 <div class="navbar bg-base-200">
     <div class="flex-1 lg:flex-none">
-        <a href="/" class="btn btn-ghost normal-case text-xl">Personal Site</a>
+        <a href="/" class="btn btn-ghost normal-case text-xl">Ben Buzard</a>
     </div>
     <div class="flex justify-end flex-1">
         <div class="flex items-stretch">
