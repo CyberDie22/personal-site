@@ -1,10 +1,14 @@
 <script>
-	import '../app.postcss';
+	import AnchorButton from '$lib/components/AnchorButton.svelte';
+import '../app.postcss';
 </script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
 <div class="navbar bg-base-200">
     <div class="flex-1 lg:flex-none">
-        <a href="/" class="btn btn-ghost normal-case text-xl">Ben Buzard</a>
+        <AnchorButton href="/">Ben Buzard</AnchorButton>
+        <div class="w-8"></div>
+        <AnchorButton href="/skills">Skills</AnchorButton>
     </div>
     <div class="flex justify-end flex-1">
         <div class="flex items-stretch">
