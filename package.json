@@ -40,6 +40,7 @@
 	"type": "module",
 	"packageManager": "yarn@3.4.1",
 	"dependencies": {
+		"@sveltejs/adapter-node": "^1.2.0",
 		"bcrypt": "^5.1.0",
 		"daisyui": "^2.50.0",
 		"redis": "^4.6.4"
