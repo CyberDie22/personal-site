@@ -1,6 +1,7 @@
 <script>
 	import Card from "$lib/components/Card.svelte";
 	import Link from "$lib/components/Link.svelte";
+    import RefP from "$lib/components/RefP.svelte";
 </script>
 
 <div class="flex justify-center items-center pt-6 pb-6">
@@ -20,8 +21,8 @@
         <br>
 
         <p>
-            When a cat purrs, it vibrates at a frequency between 25 and 125 hertz. Studies have shown that this promotes bone
-            density and healing.<Link href="https://northcare.com.au/blog/cat_purr_strengthens_our_bones/">¹</Link> A cats purr can also lower blood pressure, lower stress, and heal infections!
+            <RefP href="https://northcare.com.au/blog/cat_purr_strengthens_our_bones/">When a cat purrs, it vibrates at a frequency between 25 and 125 hertz. Studies have shown that this promotes bone
+            density and healing.</RefP> A cats purr can also lower blood pressure, lower stress, and heal infections!
         </p>
 
         <br>
