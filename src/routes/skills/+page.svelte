@@ -8,7 +8,7 @@
     let hoveredSet = (name: string) => hoveredSkill = name
 </script>
 
-<div class="flex justify-center items-center pt-60p">
+<div class="flex justify-center items-center pt-6">
     <Card>
         <div class="flex justify-center items-center flex-col">
             {#if hoveredSkill == "typescript"}
