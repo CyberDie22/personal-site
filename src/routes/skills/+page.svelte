@@ -18,6 +18,8 @@
     }
 </script>
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
 <div class="flex justify-center items-center pt-6">
     <Card>
         <div class="flex justify-center items-center flex-col">
