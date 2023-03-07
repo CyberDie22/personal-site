@@ -2,7 +2,8 @@
 	import AnchorButton from '$lib/components/AnchorButton.svelte';
 import '../app.postcss';
 </script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"></noscript>
 
 <div class="navbar bg-base-200">
     <div class="flex-1 lg:flex-none">
