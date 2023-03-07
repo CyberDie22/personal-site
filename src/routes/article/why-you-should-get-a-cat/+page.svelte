@@ -5,7 +5,7 @@
 </script>
 
 <div class="flex justify-center items-center pt-6 pb-6">
-    <Card clazz="max-w-2xl">
+    <Card class="max-w-2xl">
         <center><h1 class="font-bold text-2xl">Why You Should Get a Cat</h1></center>
 
         <p>
