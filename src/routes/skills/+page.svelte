@@ -4,8 +4,18 @@
     import SkillInfo from "$lib/components/SkillInfo.svelte"
 
     let hoveredSkill = "none"
+    let unhoverLater = false
 
-    let hoveredSet = (name: string) => hoveredSkill = name
+    let hoveredSet = (name: string) => {
+        hoveredSkill = name
+        unhoverLater = false
+    }
+    let unhover = () => {
+        unhoverLater = true
+        setTimeout(() => {
+            if (unhoverLater) hoveredSet("none")
+        }, 100)
+    }
 </script>
 
 <div class="flex justify-center items-center pt-6">
@@ -17,7 +27,7 @@
             </SkillInfo>
             {:else if hoveredSkill == "tailwindcss"}
             <SkillInfo title="TailwindCSS">
-                <p>TailwindCSS is a utility css library that lets you build good looking webistes quickly</p>
+                <p>TailwindCSS is a utility CSS library that lets you build good looking websites quickly</p>
             </SkillInfo>
             {:else if hoveredSkill == "svelte"}
             <SkillInfo title="Svelte">
@@ -47,11 +57,11 @@
 
 <div class="flex justify-center items-center p-10">
     <div class="grid gap-4 grid-rows-4 grid-cols-6">
-        <IconLink href="https://typescriptlang.org" icon="typescript" hovered={hoveredSet}></IconLink>
-        <IconLink href="https://tailwindcss.com" icon="tailwindcss" hovered={hoveredSet}></IconLink>
-        <IconLink href="https://svelte.dev" icon="svelte" hovered={hoveredSet}></IconLink>
-        <IconLink href="https://kotlinlang.org" icon="kotlin" hovered={hoveredSet}></IconLink>
-        <IconLink href="https://rust-lang.org" icon="rust" hovered={hoveredSet}></IconLink>
-        <IconLink href="https://apple.com" icon="apple" hovered={hoveredSet}></IconLink>
+        <IconLink href="https://typescriptlang.org" icon="typescript" hovered={hoveredSet} unhover={unhover}></IconLink>
+        <IconLink href="https://tailwindcss.com" icon="tailwindcss" hovered={hoveredSet} unhover={unhover}></IconLink>
+        <IconLink href="https://svelte.dev" icon="svelte" hovered={hoveredSet} unhover={unhover}></IconLink>
+        <IconLink href="https://kotlinlang.org" icon="kotlin" hovered={hoveredSet} unhover={unhover}></IconLink>
+        <IconLink href="https://rust-lang.org" icon="rust" hovered={hoveredSet} unhover={unhover}></IconLink>
+        <IconLink href="https://apple.com" icon="apple" hovered={hoveredSet} unhover={unhover}></IconLink>
     </div>
 </div>
