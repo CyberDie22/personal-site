@@ -1,4 +1,4 @@
-<script lang="ts">
+<!-- <script lang="ts">
 	import Toast from "$lib/components/Toast.svelte";
     import { user } from "$lib/auth/stores"
 
@@ -79,4 +79,4 @@
     </div>
 </div>
 
-<Toast bind:this={toast} />
+<Toast bind:this={toast} /> -->
