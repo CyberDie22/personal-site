@@ -15,7 +15,7 @@
 
         <br>
 
-        <img src="/pexels-rhea-hazel-13722001.jpg" alt="White cat sleeping in the light" />
+        <img src="/pexels-rhea-hazel-13722001.webp" alt="White cat sleeping in the light" />
         <p class="text-sm">Credit: Rhea Hazel on Pexels</p>
 
         <br>
