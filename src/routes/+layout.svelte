@@ -29,12 +29,23 @@
     })
     
     $: webManifest = pwaInfo ? pwaInfo.webManifest.linkTag : ''
+
+    let hideNavbar = false
+    let showFooter = false
+    onMount(() => {
+        console.log(window.location.pathname)
+        showFooter = window.location.pathname === "/article/why-you-should-get-a-cat"
+        let queryString = window.location.search
+        let urlParams = new URLSearchParams(queryString)
+        hideNavbar = urlParams.has('hideNavbar')
+    })
 </script>
 
 <svelte:head>
     {@html webManifest}
 </svelte:head>
 
+{#if !hideNavbar}
 <div class="navbar bg-base-200">
     <div class="flex-1 lg:flex-none">
         <AnchorButton href="/">Ben Buzard</AnchorButton>
@@ -51,5 +62,12 @@
         </div>
     </div>
 </div>
+{/if}
 
 <slot />
+
+{#if showFooter}
+<div class="footer bg-base-200 p-2">
+    <a href="https://github.com/CyberDie22/personal-site/blob/main/src/routes/article/why-you-should-get-a-cat/%2Bpage.svelte" target="_blank" rel="noreferrer" class="hover:text-white">View Code</a>
+</div>
+{/if}
