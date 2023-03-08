@@ -4,7 +4,6 @@ import '../app.postcss';
 </script>
 
 <div class="navbar bg-base-200">
-<div class="navbar bg-base-200">
     <div class="flex-1 lg:flex-none">
         <AnchorButton href="/">Ben Buzard</AnchorButton>
         <div class="w-8"></div>
