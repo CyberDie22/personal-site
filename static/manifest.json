@@ -1,0 +1,20 @@
+{
+    "short_name": "Ben Buzard's Website",
+    "name": "Ben Buzard's Website",
+    "icons": [
+        {
+            "src": "/favicon-black-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/favicon-black-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "id": "/?source=pwa",
+    "start_url": "/?source=pwa",
+    "display": "standalone",
+    "description": "Ben Buzard's Personal Website"
+}
