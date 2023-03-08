@@ -58,7 +58,7 @@
 </div>
 
 <div class="flex justify-center items-center p-10">
-    <div class="grid gap-4 grid-rows-4 grid-cols-6">
+    <div class="grid gap-4 grid-rows-4 grid-cols-2 lg:grid-cols-6">
         <IconLink href="https://typescriptlang.org" icon="typescript" hovered={hoveredSet} unhover={unhover}></IconLink>
         <IconLink href="https://tailwindcss.com" icon="tailwindcss" hovered={hoveredSet} unhover={unhover}></IconLink>
         <IconLink href="https://svelte.dev" icon="svelte" hovered={hoveredSet} unhover={unhover}></IconLink>
