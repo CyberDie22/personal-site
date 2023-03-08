@@ -6,6 +6,7 @@
 
 <svelte:head>
     <title>Why You Should Get a Cat</title>
+    <meta name="description" content="Reasons why you should get a cat">
 </svelte:head>
 
 <div class="flex justify-center items-center pt-6 pb-6">

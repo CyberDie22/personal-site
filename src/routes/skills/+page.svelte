@@ -20,6 +20,8 @@
 
 <svelte:head>
     <title>Skills</title>
+    <meta name="description" content="Skills Ben Buzard has">
+    <meta name="robots" content="noindex">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 </svelte:head>
 

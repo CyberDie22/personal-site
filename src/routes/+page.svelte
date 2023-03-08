@@ -9,6 +9,7 @@
 
 <svelte:head>
     <title>Home</title>
+    <meta name="description" content="Home page for Ben Buzard's website">
 </svelte:head>
 
 <div class="flex flex-col justify-center items-center p-10">
