@@ -16,5 +16,7 @@
     "id": "/?source=pwa",
     "start_url": "/?source=pwa",
     "display": "standalone",
-    "description": "Ben Buzard's Personal Website"
+    "description": "Ben Buzard's Personal Website",
+    "theme_color": "#242933",
+    "background_color": "#2A303C"
 }
