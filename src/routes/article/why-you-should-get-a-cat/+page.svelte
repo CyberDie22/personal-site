@@ -4,6 +4,10 @@
     import RefP from "$lib/components/RefP.svelte";
 </script>
 
+<svelte:head>
+    <title>Why You Should Get a Cat</title>
+</svelte:head>
+
 <div class="flex justify-center items-center pt-6 pb-6">
     <Card class="max-w-2xl">
         <center><h1 class="font-bold text-2xl">Why You Should Get a Cat</h1></center>

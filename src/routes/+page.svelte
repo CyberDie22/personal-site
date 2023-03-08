@@ -7,6 +7,10 @@
 
 </script>
 
+<svelte:head>
+    <title>Home</title>
+</svelte:head>
+
 <div class="flex flex-col justify-center items-center p-10">
     <Card>
         <h2 class="card-title">About Me</h2>
